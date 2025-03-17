@@ -1,5 +1,6 @@
 streamlit
 langchain-core
 langchain
-langchain_ollama
+langchain-ollama
 ollama
+httpx
