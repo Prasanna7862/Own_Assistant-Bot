@@ -1,4 +1,5 @@
 streamlit
 langchain-core
 langchain
+langchain_ollama
 ollama
