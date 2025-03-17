@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_ollama import OllamaLLM  # ✅ Updated import
+from langchain_ollama import OllamaLLM  # Make sure it's the correct import
 from langchain_core.output_parsers import StrOutputParser
 
 # Set page title
@@ -15,8 +15,8 @@ prompt = ChatPromptTemplate.from_messages([
     ("user", "User query: {query}")
 ])
 
-# Load the Ollama model (updated version)
-llm = OllamaLLM(model="llama3.2")  # ✅ Updated model
+# Use the correct Ollama model (llama3.2)
+llm = OllamaLLM(model="llama3.2")
 
 # Output parser
 output_parser = StrOutputParser()
